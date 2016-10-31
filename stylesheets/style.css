@@ -2450,3 +2450,16 @@ h2 {
     font-size: 2em; }
     .picker-container .output .winner.waiting {
       color: #3498db; }
+
+footer {
+  max-width: 768px;
+  width: 95%;
+  margin: 10em auto 5em auto;
+  font-size: 0.75em;
+  text-align: center;
+  line-height: 1.25em; }
+  footer a {
+    color: #ecf0f1; }
+    footer a.twitter {
+      color: #3498db;
+      text-decoration: none; }

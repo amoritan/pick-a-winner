@@ -99,3 +99,18 @@ h2 {
   }
 }
 
+footer {
+  max-width: 768px;
+  width: 95%;
+  margin: 10em auto 5em auto;
+  font-size: 0.75em;
+  text-align: center;
+  line-height: 1.25em;
+  a {
+    color: $white;
+    &.twitter {
+      color: $lightblue;
+      text-decoration: none;
+    }
+  }
+}
