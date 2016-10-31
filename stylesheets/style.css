@@ -2453,6 +2453,9 @@ h2 {
       padding: 1em;
       cursor: pointer;
       text-transform: uppercase; }
+      .picker-container .midput button:hover {
+        animation: pulse;
+        animation-duration: 1s; }
   .picker-container .output .winner {
     text-align: center;
     font-weight: 700;

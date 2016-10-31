@@ -82,6 +82,10 @@ h2 {
       padding: 1em;
       cursor: pointer;
       text-transform: uppercase;
+      &:hover {
+        animation: pulse;
+        animation-duration: 1s;
+      }
     }
   }
   .output {
