@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>pick-a-winner</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>pick-a-winner</h1>
+    <h2>A simple random picker made with JS</h2>
+    
+    <section class="row gutters picker-container">
+      <div class="col span_4 input">
+        <h3><span class="number">1</span> Enter all the entries</h3>
+        <textarea name="entries" id="entries" placeholder="Each entry on a separate line..."></textarea>
+      </div>
+      <div class="col span_4 midput">
+        <h3><span class="number">2</span> Press the button</h3>
+        <button name="submit" id="submit">Press here</button>
+      </div>
+      <div class="col span_4 output">
+        <h3><span class="number">3</span> Get a winner</h3>
+        <div class="winner waiting">Waiting...</div>
+      </div>
+    </section>
+
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/script.min.js"></script>
+  </body>
+</html>
